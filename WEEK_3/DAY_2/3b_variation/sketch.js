@@ -12,8 +12,8 @@ function setup(){
     noStroke();
 }
 function draw(){
-    background(255,0,0);
-    fill(255,200,255);
+    background(255,255,0);
+    fill(255,0,0);
     //nested loop
     for(var i = 0; i < columns; i++){
         for(var j = 0; j < rows; j++){

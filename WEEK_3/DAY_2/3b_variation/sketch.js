@@ -12,7 +12,8 @@ function setup(){
     noStroke();
 }
 function draw(){
-    background(0,80,80);
+    background(255,0,0);
+    fill(255,200,255);
     //nested loop
     for(var i = 0; i < columns; i++){
         for(var j = 0; j < rows; j++){
@@ -25,7 +26,6 @@ function draw(){
                 //rotate each cell a different amount
                 rotate(frameCount+x+y);
                 //draw dot off from the center of the cell
-                fill(255,200,255);
                 ellipse(cellW/2,0,dotSize);
             pop();
             

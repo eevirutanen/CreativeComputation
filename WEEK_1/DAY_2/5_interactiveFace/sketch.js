@@ -1,6 +1,7 @@
 //Interactive Face
 //Eevi Rutanen
 //5.10.2020
+//Using mouse intraction to change shape attributes.
 function setup(){
     //set canvas size 500*500px
     createCanvas(500,500);

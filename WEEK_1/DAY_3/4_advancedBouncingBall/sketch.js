@@ -21,8 +21,8 @@ function setup(){
 }
 function draw(){
     noStroke(); //draw without stroke
-    background(255,255,0); //set background black
-    fill(255,0,0); //set fill to red
+    background(255,255,0); //update background
+    fill(255,200,255); //make fill
     //draw an ellipse at x and y coordinates
     //define the size of the ellipse with ballSize
     ellipse(x,y,ballSize,ballSize);

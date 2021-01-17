@@ -4,7 +4,7 @@ function setup(){
     angleMode(DEGREES);
 }
 function draw(){
-    background(255, 125, 102);
+    background(0,0,255);
     strokeWeight(20);
     stroke(255,200);
     translate(width/2, height/2); //move origin point to center

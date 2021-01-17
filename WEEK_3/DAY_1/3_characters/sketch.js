@@ -40,8 +40,8 @@ function draw(){
         background(0,0,255);
     }
     
-    //when counter reaches the end of unicode latin characters, stop program
+    //when counter reaches the end of unicode latin characters, loop back to the beginning of character set
     if (counter > 591){
-        noLoop();
+        counter = 33;
     }
 }

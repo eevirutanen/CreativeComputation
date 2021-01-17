@@ -5,9 +5,9 @@
 
 var myFont, points, input, button;
 var word = "Pizza"; //word
-var speed = 3; //animation speed
+var speed = 5; //animation speed
 var fSize = 100; //font size
-var resolution = 1; //resolution of text outline
+var resolution = 2; //resolution of text outline
 var dotSize = 3;
 var currPoint = 0;
 function preload(){
@@ -15,7 +15,7 @@ function preload(){
 }
 function setup(){
     createCanvas(windowWidth,windowHeight);
-    fill(255);
+    fill(255,0,0);
     noStroke();
     
     //create input
@@ -31,7 +31,7 @@ function setup(){
     
 }
 function draw(){
-    background(0);
+    background(255,255,0);
     //move to center
     translate(20, height/2);
     button.position(width/2,20);

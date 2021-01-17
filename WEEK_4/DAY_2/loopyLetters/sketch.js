@@ -4,7 +4,7 @@
 
 var myFont, points;
 var w = "E"; //word
-var fSize = 300;
+var fSize = 400;
 function preload(){
     myFont = loadFont("fonts/Cheee.otf");
 }

@@ -14,7 +14,7 @@ var poem = []; //empty array for poem
 
 function preload(){
     //load two text files
-    eliot = loadStrings("assets/eliot.txt");
+    eliot = loadStrings("assets/Eliot.txt");
     manual = loadStrings("assets/manual.txt");
 }
 function setup(){

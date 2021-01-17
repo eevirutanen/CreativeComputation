@@ -22,7 +22,7 @@ function draw(){
     noFill();
     stroke(255);
     //move to center
-    translate(180, 350);
+    translate(120, 400);
     //map mouse coordinates
     var mx = map(mouseX,0,width,-5,5);
     var my = map(mouseY,0,height,-5,5);

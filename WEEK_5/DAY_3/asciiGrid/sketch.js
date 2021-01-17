@@ -24,12 +24,12 @@ function setup(){
     cellH = (height-(2*margin)) / rows;
     textFont("Courier");
     textSize(cellW);
-    background(0);
-    fill(255);
+    background(0,255,0);
+    fill(0);
     noStroke();
 }
 function draw(){
-    background(0);
+    background(0,255,0);
     calcPoints();
     for(var i = 0; i < columns; i++){
         for(var j = 0; j < rows; j++){

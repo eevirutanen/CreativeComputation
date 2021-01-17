@@ -1,6 +1,6 @@
 //Loopy Letters
 //Eevi Rutanen
-//This sketch demonstrates how to use the text to points function and how to draw custom shapes.
+//This sketch demonstrates how to use the text to points function and how to draw custom shapes with beginShape.
 
 var myFont, points;
 var w = "E"; //word
@@ -15,7 +15,7 @@ function setup(){
     points = myFont.textToPoints(w, 0, 0, fSize);
 }
 function draw(){
-    background(0);
+    background(0,0,255);
     noStroke();
     fill(255);
     text("Type a character.", 5,10);

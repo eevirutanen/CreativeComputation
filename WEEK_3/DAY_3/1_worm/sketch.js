@@ -14,7 +14,7 @@ function setup(){
     strokeWeight(size);
 }
 function draw(){
-    background(255,0,0);
+    background(241, 217, 255);
     stroke(50,200,100);
     //loop through the stored coordinates
     //and draw a line from each coordinate to the next coordinate

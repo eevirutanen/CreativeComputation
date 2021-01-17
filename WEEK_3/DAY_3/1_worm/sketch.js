@@ -2,7 +2,7 @@
 //Saving mouse coordinates to an array using array method push()
 //Removing values from array using array method shift()
 //Using mouseMoved() event function
-//Eevi Rutanen
+//Eevi Rutanen 25.10.2020
 
 var len = 50; //length of worm
 //arrays for mouse coordinates
@@ -14,7 +14,7 @@ function setup(){
     strokeWeight(size);
 }
 function draw(){
-    background(241, 217, 255);
+    background(255, 217, 255);
     stroke(50,200,100);
     //loop through the stored coordinates
     //and draw a line from each coordinate to the next coordinate

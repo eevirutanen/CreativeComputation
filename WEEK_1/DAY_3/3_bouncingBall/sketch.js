@@ -15,6 +15,7 @@ function setup(){
 
 function draw(){
     background(255,255,0); // redraw background every frame
+    noStroke();
     fill(255,200,255);
     ellipse(width/2, y, w, w); //draw ellipse using y and w
     y = y+speed; //increase y with speed

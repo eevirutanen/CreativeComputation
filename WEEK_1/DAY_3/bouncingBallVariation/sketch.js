@@ -8,8 +8,8 @@ var xDirection = -5;
 var ballSize = 100;
 
 function setup(){
-    createCanvas(500,400);
-    y = height/2;
+    createCanvas(500,500);
+    y = height/3;
     x = width/2;
     background(255,200,255);
 }

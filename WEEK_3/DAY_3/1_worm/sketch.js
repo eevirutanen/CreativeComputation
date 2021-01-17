@@ -4,7 +4,7 @@
 //Using mouseMoved() event function
 //Eevi Rutanen
 
-var len = 100; //length of worm
+var len = 50; //length of worm
 //arrays for mouse coordinates
 var posY = [];
 var posX = [];
@@ -14,7 +14,7 @@ function setup(){
     strokeWeight(size);
 }
 function draw(){
-    background(255,200,250);
+    background(255,0,0);
     stroke(50,200,100);
     //loop through the stored coordinates
     //and draw a line from each coordinate to the next coordinate

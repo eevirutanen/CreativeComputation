@@ -7,7 +7,7 @@
 
 //Modify this to make each letter different or to spell out a sentence!
 
-var num = 40; //number of letters in the beginning
+var num = 20; //number of letters in the beginning
 //make two empty arrays for x and y coordinates 
 var posY = [];
 var posX = [];
@@ -15,7 +15,7 @@ var rot = [];
 //make two empty arrays for x and y directions
 var directionX = [];
 var directionY = [];
-var size = 40; //letter size
+var size = 60; //letter size
 var letter = "K"; //letter to be drawn
 function setup(){
     createCanvas(500,500);
@@ -28,14 +28,17 @@ function setup(){
         directionY.push(random(0.5,1.5));
         rot.push(random(0,360));
     }
-    textSize(size);
-    textAlign(CENTER,CENTER);
     textFont("Helvetica");
     fill(255,200,255);
     stroke(255,0,0);
 }
 function draw(){
     background(255,0,0);
+    textSize(15);
+    textAlign(LEFT,TOP);
+    text("Click or type!",0,15);
+    textSize(size);
+    textAlign(CENTER,CENTER);
     //loop through all letters
     for(var i=0; i<posX.length; i++){
         //translate to corresponding coordinates, rotate and draw letter

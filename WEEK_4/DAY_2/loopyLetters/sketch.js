@@ -15,14 +15,15 @@ function setup(){
     points = myFont.textToPoints(w, 0, 0, fSize);
 }
 function draw(){
-    background(0,0,255);
+    background(226, 255, 99);
     noStroke();
-    fill(255);
+    fill(0);
     text("Type a character.", 5,10);
     noFill();
-    stroke(255);
+    stroke(0);
+    strokeWeight(2);
     //move to center
-    translate(140, 480);
+    translate(140, 280);
     //map mouse coordinates
     var mx = map(mouseX,0,width,-5,5);
     var my = map(mouseY,0,height,-5,5);

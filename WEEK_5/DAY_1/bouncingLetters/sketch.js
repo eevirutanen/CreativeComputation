@@ -34,9 +34,9 @@ function setup(){
 }
 function draw(){
     background(255,0,0);
-    textSize(15);
+    textSize(10);
     textAlign(LEFT,TOP);
-    text("Click or type!",0,15);
+    text("Click mouse or type a letter!",0,0);
     textSize(size);
     textAlign(CENTER,CENTER);
     //loop through all letters

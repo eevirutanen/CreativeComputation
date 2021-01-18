@@ -1,2 +1,4 @@
 # CreativeComputation
-Coding exercises for the course Creative Computation for Visual Communication Design at Aalto ARTS (2020-2021)
+Coding exercises from the course *Creative Computation for Visual Communication Design* (2020-2021) at Aalto ARTS by Eevi Rutanen.
+Done with p5.js.
+
